@@ -1,0 +1,124 @@
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Dancing Script', cursive; */
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: antiquewhite;
+    background: url(https://a-static.besthdwallpaper.com/chocolate-bar-wallpaper-2880x1620-2881_52.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 60px;
+    color: gold;
+    position: relative;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    font-family: 'Dancing Script', cursive;
+
+}
+header .navigation a{
+    color: goldenrod;
+    font-size: 30px ;
+    text-decoration: none;
+    background: #000;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: .3s;  
+    font-family: 'Dancing Script', cursive;
+}
+
+header .navigation a:not(:last-child){
+    margin-right: 30px;
+}
+header .navigation a:hover{
+    background: #fff;
+    color: #000;
+}
+
+.content{
+    margin: 60px 100px;
+    max-width: 650px;
+    background: radial-gradient(black, transparent);
+}
+.content .info{
+    font-size: 23px ;
+    font-family:  'Caveat', cursive;
+}
+
+
+.content .info h2{
+    font-family: 'Dancing Script', cursive;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+.content .info h2 span{
+    color: rgb(233, 186, 67);
+    padding-left: 50px;
+}
+a.Info-btn{
+    text-decoration: none;
+    color: gold;
+   transition: .3s ;
+   margin-left: 500px;
+
+  
+
+}
+a.Info-btn:hover{
+    background: radial-gradient(black, grey);
+    border-radius: 15px;
+    padding: 9px;
+   
+}
+.media-icon{
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.media-icon a{
+    justify-content: center;
+    position: relative;
+    font-size: 30px;
+    transition-property: transform;
+    transition: 0.3s;
+    color: #fff;
+    text-decoration: none;
+    
+}
+.media-icon a:not(:last-child){
+    margin-right: 60px;
+}
+.media-icon a:hover{
+    transform: scale(2.5);
+    color: gold;
+}
+
